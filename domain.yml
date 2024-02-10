@@ -1,0 +1,42 @@
+version: "3.1"
+
+intents:
+  - selamlama
+  - geri_cevap
+  - aranacak_coin
+  - finding_coin  
+  - bay
+
+entities:
+  - coin_finder
+
+slots:
+  coin_finder:
+    type: text
+    mappings:
+    - type: from_entity
+      entity: coin_finder
+
+actions:
+- action_coin_finder
+
+responses:
+  utter_selamlama:
+  - text: "Selam, nasılsın"
+
+  utter_geri_cevap:
+  - text: "Sorduğun için çok teşekkür ederim. Ben de iyiyim :)"
+
+  utter_aranacak_coin:
+  - text: "Aradığın coin için kodlama girer misin? örn: BTCUSDT"
+
+  utter_finding_coin:
+  - text: "İstenen coin: {coin_finder}"
+
+  utter_bay:
+  - text: "Tekrar görüşmek üzere"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
