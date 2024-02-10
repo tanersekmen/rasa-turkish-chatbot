@@ -17,8 +17,14 @@ Usage
 Installation: First, clone or download the project. Then, install the Rasa framework and run the project.
 
 `pip install rasa`
+
+
 `cd rasa-turkish-chatbot`
+
+
 `rasa train`
+
+
 `rasa shell`
 
 
