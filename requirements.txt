@@ -1,0 +1,2 @@
+rasa==3.6.15
+tradingview-ta==3.3.0
