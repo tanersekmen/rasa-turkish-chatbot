@@ -1,0 +1,38 @@
+version: "3.1"
+
+nlu:
+- intent: selamlama
+  examples: |
+    - selamlar
+    - selamlar, nasılsın? 
+    - merhaba
+    - merhaba, nasılsın? 
+
+- intent: geri_cevap
+  examples: |
+    - Teşekkür ederim ben de iyiyim.
+    - İyi olmana sevindim.
+    - Umarım günün güzel geçiyordur.
+    - Senin adına sevindim.
+
+
+- intent: aranacak_coin
+  examples: |
+    - Aradığınız kripto para nedir? 
+    - Aradığınız kripto para ve karşılığı olan para birimini girin:
+    - Kripto para ve birimiyle belirtiniz: ör BTCUSDT
+
+
+- intent: finding_coin
+  examples: |
+    - [BTCUSDT](coin_finder) ne kadar?
+    - [ETHUSDT](coin_finder) ne kadar olabilir?
+    - [AVAXUSDT](coin_finder) analizi nedir?
+    - [INJUSDT](coin_finder) hakkında bilgi verir misin?
+
+- intent: bay
+  examples: |
+    - Bay bay
+    - Görüşürüz
+    - Görüşmek üzere
+    - Kendine iyi bak, görüşürüz
