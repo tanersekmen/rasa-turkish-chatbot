@@ -13,7 +13,7 @@ This project includes a chatbot that performs technical analysis of cryptocurren
 This chatbot is built on the Rasa framework and equipped with natural language processing (NLP) capabilities. Users can interact with the bot by providing text-based inputs. The bot uses NLP techniques to understand user queries, access the correct information, and generate appropriate responses.
 
 
-Usage
+# Usage
 Installation: First, clone or download the project. Then, install the Rasa framework and run the project.
 
 `pip install rasa`
