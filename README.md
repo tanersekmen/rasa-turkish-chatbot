@@ -29,7 +29,7 @@ Installation: First, clone or download the project. Then, install the Rasa frame
 
 
 # Contributions
-If you'd like to contribute to this project, please send a pull request or open an issue. We welcome any contributions to help improve the project.
+If you'd like to contribute to this project, please send a pull request or open an issue. I welcome any contributions to help improve the project.
 
 
 
